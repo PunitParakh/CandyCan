@@ -1,7 +1,6 @@
 # CandyCan
 
-![Flutter Crush](https://www.didierboelens.com/images/blog/flutter_crush_game_page.png)
-<br/><br/>
+
 
 ## Credits
 

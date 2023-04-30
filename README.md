@@ -1,5 +1,8 @@
 # CandyCan
 
+![Flutter Crush](https://www.didierboelens.com/images/blog/flutter_crush_game_page.png)
+<br/><br/>
+
 ## Credits
 
 Some icons such as tnt, rocket, mine and wall come from <a href="http://www.pngtree.com" target="_blank">https://pngtree.com/</a>.

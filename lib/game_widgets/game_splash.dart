@@ -92,8 +92,8 @@ class _GameSplashState extends State<GameSplash>
         child: DoubleCurvedContainer(
           width: screenSize.width,
           height: 150.0,
-          outerColor: Colors.blue[700],
-          innerColor: Colors.blue,
+          outerColor: Colors.white,
+          innerColor: Colors.purpleAccent[700],
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

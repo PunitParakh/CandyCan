@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\app\\Candy Crush\\flutter_crush\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\a234ea6b833f30c0f9723395661097b6\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\app\\Candy Crush\\flutter_crush\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\a234ea6b833f30c0f9723395661097b6\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\app\\Candy Crush\\flutter_crush\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\a234ea6b833f30c0f9723395661097b6\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\app\\Candy Crush\\flutter_crush\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\a234ea6b833f30c0f9723395661097b6\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

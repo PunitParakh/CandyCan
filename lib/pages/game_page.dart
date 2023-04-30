@@ -21,6 +21,7 @@ import 'package:flutter_crush/model/level.dart';
 import 'package:flutter_crush/model/row_col.dart';
 import 'package:flutter_crush/model/tile.dart';
 import 'package:flutter/material.dart';
+import 'package:wiredash/wiredash.dart';
 
 class GamePage extends StatefulWidget {
   static Route<dynamic> route(Level level) {
@@ -94,16 +95,16 @@ class _GamePageState extends State<GamePage>
 
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.close),
+        child: Icon(Icons.feedback_outlined),
         onPressed: () {
-          Navigator.of(context).pop();
+          Wiredash.of(context).show(inheritMaterialTheme: true);
         },
       ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/images/background/background.jpg'),
-            fit: BoxFit.cover,
+            fit: BoxFit.fitHeight,
           ),
         ),
         child: GestureDetector(
@@ -115,7 +116,6 @@ class _GamePageState extends State<GamePage>
           onTapUp: _onPanEnd,
           child: Stack(
             children: <Widget>[
-              _buildAuthor(),
               _buildMovesLeftPanel(orientation),
               _buildObjectivePanel(orientation),
               _buildBoard(),
@@ -130,20 +130,6 @@ class _GamePageState extends State<GamePage>
   //
   // Puts the author text
   //
-  Widget _buildAuthor() {
-    return Align(
-      alignment: Alignment.bottomLeft,
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: ShadowedText(
-          text: 'by Didier Boelens',
-          color: Colors.white,
-          fontSize: 12.0,
-          offset: Offset(1.0, 1.0),
-        ),
-      ),
-    );
-  }
 
   //
   // Builds the score panel
